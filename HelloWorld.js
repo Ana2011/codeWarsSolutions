@@ -3,5 +3,5 @@
 function helloWorld(){
     var str = 'Hello World!';
     console.log(str);
-    return 'helloWorld';
+    return 'helloWorld'; //--
 }

@@ -3,6 +3,10 @@
 const areaOrPerimeter = function (l , w) {
     let s = l  * w;
     let p = (l + w) * 2;
-    if(l === w) return s;
-    else return p;
+    if(l === w) {
+        return s;
+    }
+    else {
+        return p;
+    }
 }; // Return your answer

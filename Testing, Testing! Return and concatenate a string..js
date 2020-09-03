@@ -4,3 +4,5 @@ function getRes(myScore) {
     let result = (myScore < 70) ? 'Sorry, you have failed. Better luck next time! Thank you for taking part.' : 'Congratulations, you have passed! Thank you for taking part.';
     return result;
 }
+
+

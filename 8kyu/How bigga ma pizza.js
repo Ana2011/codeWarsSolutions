@@ -1,0 +1,5 @@
+//https://www.codewars.com/kata/5e9c06f95ea5b30033903194
+
+function howBiggaMaPizza(blob, crust) {
+    return crust === 'crispy' ? Math.sqrt(4/3 * (blob/2) ** 3) : Math.sqrt( 4/3 * (blob/2) ** 3/5);
+}

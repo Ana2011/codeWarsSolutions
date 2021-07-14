@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/56426b4e971f01fd2f00005b/train/javascript
+
+function squareRoot(x) {
+   var c=5;
+    var b;
+    for(let i=0;i<20;i++){
+        b=x/c;
+        c=(b+c)/2;
+    }
+    return Math.round(c * 100000) / 100000;

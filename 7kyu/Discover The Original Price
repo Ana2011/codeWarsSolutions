@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/552564a82142d701f5001228/train/javascript
+
+function discoverOriginalPrice(discountedPrice, salePercentage){
+ let persent = 100 - salePercentage
+ let price =(discountedPrice)* 100/ persent
+ return +price.toFixed(2) 
+}
